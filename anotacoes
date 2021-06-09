@@ -1,0 +1,48 @@
+aula 1 - servlets
+
+instalar JDK 10
+
+instalar eclipse - java web developer
+
+instalar servidor -> apache tomcat
+
+configurar o tom cat dentro do eclipse
+
+criar project web dinamic -> next -> gerar web.xml
+
+associar tomcat com novo projeto -> botao direito -> add/gerenciador
+
+http://localhost:8080/gerenciador/bem-vindo.html
+
+Java Runtime Environ (JRE)
+
+servlet - objeto especial que gera resposta http
+
+==========
+String nomeEmpresa = request.getParameter("nome"); envia parametro atras da requisicao web
+http://localhost:8080/gerenciador/novaEmpresa?nome=Alura
+doPost doGet service
+==========
+
+arquivo que executa html e java junto é o .jsp
+
+em vez de usar <%out.println(nomeEmpress)%> -> atalho -> <%= nomeEmpresa%>
+
+comunicacao do banco de dados com jsp resposta é o request set atribute. 
+forward manda pra frente a requisicao. e no jsp ele faz um request(empresa)
+
+Servlet -> JSP(JSTL + EL)
+ /\
+ ||
+ \/
+modelo
+
+usando a lib jstl -> facilita na hora da escrita de um jsp. a sintaxe simplifica. 
+
+jstl(java standard tag library)
+
+core -> controle de fluxo
+fmt -> formatacao/i18n
+sql -> executar SQL
+xml -> gerar XML
+
